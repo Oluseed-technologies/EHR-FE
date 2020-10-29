@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1; */
+/* } */
+.animi{
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: backInRight; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; 
+}
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+#info-section{
+    margin-top: -20px;
+}
+.animination{
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: backInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+}
+.fa {
+    color: #000;
+    margin-top: -20px;
+    text-align: center;
+}
+.third{height:450px;
+    background-image: linear-gradient(to left, rgba(255,0,0,0),#DEE0DF);
+}
